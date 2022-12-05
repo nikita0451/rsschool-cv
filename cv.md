@@ -18,3 +18,10 @@ function multiply(a, b){
   return a * b;
 }
 ```
+## Courses
+* HTML Academy
+* Hexlet
+* Stepik
+## Languages
+* Russian
+* English
