@@ -16,3 +16,30 @@ My goal is to learn new things. Web programming is one of the most promising are
 * Python
 * Git
 * VS Code
+
+## Code:
+```function finalGrade (exam, projects) {
+  if (exam > 90 || projects > 10) {
+    return 100;
+  } else if (exam > 75 && projects >= 5) {
+      return 90;
+  } else if (exam > 50 && projects >= 2) {
+      return 75;
+  } else {
+    return 0;
+  }
+
+  return finalGrade;
+};
+```
+
+## Courses:
+* Hexlet
+* Stepik
+* YouTube Courses
+* RS Schools Course «JavaScript/Front-end. Stage 0»
+
+## Language:
+* Russian — Native
+* English — Upper-Intermediate
+* German — Beginner
