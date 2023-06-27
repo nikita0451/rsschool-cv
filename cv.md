@@ -18,7 +18,8 @@ My goal is to learn new things. Web programming is one of the most promising are
 * VS Code
 
 ## Code:
-```function finalGrade (exam, projects) {
+```
+function finalGrade (exam, projects) {
   if (exam > 90 || projects > 10) {
     return 100;
   } else if (exam > 75 && projects >= 5) {
