@@ -42,5 +42,5 @@ function finalGrade (exam, projects) {
 
 ## Language:
 * Russian — Native
-* English — Upper-Intermediate
+* English — Intermediate
 * German — Beginner
