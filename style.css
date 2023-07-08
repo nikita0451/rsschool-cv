@@ -73,3 +73,89 @@ body {
     height: 85px;
     gap: 20px;
 }
+
+.avatar {
+    margin-top: 90px;
+}
+
+.main-container {
+    display: flex;
+    gap: 60px;
+}
+
+.left-side {
+    width: 345px;
+}
+
+.ride-side {
+    width: 795px;
+}
+
+.section-title-color {
+    color: var(--main, #6F16B5);
+    /* H2 */
+    font-family: Inter; 
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+}
+
+.contacts {
+    margin-top: 130px;
+}
+
+.contacts-list {
+    margin-top: 30px;
+}
+
+.contacts-list li:not(:first-child) {
+    margin-top: 15px;
+}
+
+.contacts-bold {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.skills {
+    margin-top: 80px;
+}
+
+.skills-list {
+    margin-top: 30px;
+}
+
+.skills-list li:not(:first-child) {
+    margin-top: 15px;
+}
+
+.education {
+    margin-top: 80px;
+}
+
+.education-list {
+    margin-top: 30px;
+}
+
+.education-list li:not(:first-child) {
+    margin-top: 15px;
+}
+
+.languages {
+    margin-top: 80px;
+}
+
+.languages-list {
+    margin-top: 30px;
+}
+
+.languages-list li:not(:first-child) {
+    margin-top: 15px;
+}
