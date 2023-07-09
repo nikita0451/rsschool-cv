@@ -37,6 +37,9 @@ img {
 }
 
 body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     font-family: 'Inter', sans-serif;
     background-color: black;
     color: white;
