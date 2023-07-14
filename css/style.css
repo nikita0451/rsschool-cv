@@ -1,0 +1,99 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    box-sizing: border-box;
+
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh; */
+    font-family: 'Forum', cursive;
+    font-family: 'Inter', sans-serif;
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    background: #0C0C0E;
+    height: 90px;
+}
+
+h1 {
+    color: #FFF;
+    font-family: Forum;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px; /* 166.667% */
+    letter-spacing: 0.6px;
+
+}
+
+.nav-item {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px; /* 250% */
+    text-transform: capitalize;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+}
+
+.nav-list {
+    display: flex;
+    gap: 30px;
+}
+
+.header-icon {
+    margin-left: 40px;
+}
+
+.header-nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.welcome {
+    height: 600px;
+    background: linear-gradient(180deg, #0C0C0E 0%, #0C0C0E 0.01%, rgba(18, 18, 21, 0.10) 100%), url(/rsschool-cv/img/Welcome\ \(1\).png), no-repeat center;
+}
