@@ -121,3 +121,42 @@ h1 {
   padding: 35px 40px;
   background-color: #0C0C0E;
 }
+
+h2 {
+  color: #0C0C0E;
+  font-family: Forum;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  /* 100% */
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  margin-top: 20px;
+  text-align: center;
+  position: relative;
+}
+
+h2::before {
+  content: "";
+  width: 50px;
+  height: 1px;
+  background-color: #0C0C0E;
+  position: absolute;
+  bottom: -20px;
+  margin: auto;
+  right: 0;
+  left: 0;
+}
+
+.about-description {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  /* 200% */
+  padding-top: 61px;
+}
