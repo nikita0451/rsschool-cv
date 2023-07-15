@@ -194,7 +194,7 @@ h2::before {
   margin-top: 40px;
 }
 
-.checked {
+.active {
   background-color: #BB945F;
 }
 
@@ -265,4 +265,15 @@ h2::before {
 
 input[type="radio"]:checked+.fake+.radio-text {
   font-weight: bold;
+}
+
+.label {
+  cursor: pointer;
+  position: relative;
+}
+
+.label::after {
+  position: absolute;
+  content: '';
+  inset: -5px;
 }
