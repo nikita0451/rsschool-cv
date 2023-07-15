@@ -160,3 +160,40 @@ h2::before {
   /* 200% */
   padding-top: 61px;
 }
+
+.about-image {
+  display: flex;
+  gap: 25px;
+  padding-top: 20px;
+}
+
+.slider-image {
+  width: 450px;
+  height: 560px;
+}
+
+.circle {
+  width: 16px;
+  height: 16px;
+  background-color: #0C0C0E;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+}
+
+.circle::after {
+  position: absolute;
+  content: '';
+  inset: -10px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 40px;
+}
+
+.checked {
+  background-color: #BB945F;
+}
