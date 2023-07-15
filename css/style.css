@@ -197,3 +197,72 @@ h2::before {
 .checked {
   background-color: #BB945F;
 }
+
+.favorites {
+  margin-top: 60px;
+}
+
+.favorites-text {
+  padding-top: 61px;
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.checkboxs {
+  display: flex;
+  margin-top: 40px;
+  gap: 90px;
+}
+
+.radio-text {
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.fake {
+  display: inline-block;
+  position: relative;
+  width: 17px;
+  height: 17px;
+  border: 2px solid black;
+  border-radius: 50%;
+  margin-right: 20px;
+  vertical-align: middle;
+}
+
+.fake::before {
+  position: absolute;
+  left: 3px;
+  top: 3px;
+  content: "";
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: black;
+  opacity: 0;
+  transition: .2s;
+}
+
+.checkbox:checked+.fake::before {
+  opacity: 1;
+}
+
+.checkbox {
+  width: 0;
+  height: 0;
+  position: absolute;
+  opacity: 0;
+}
+
+input[type="radio"]:checked+.fake+.radio-text {
+  font-weight: bold;
+}
