@@ -278,10 +278,11 @@ input[type="radio"]:checked+.fake+.radio-text {
   inset: -5px;
 }
 
-.favorite-books {
+.favorites-books {
   display: flex;
   align-items: flex-start;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .book {
@@ -338,7 +339,7 @@ h3 {
   height: 1px;
   background-color: #BB945F;
   position: absolute;
-  bottom: -5px;
+  bottom: -3px;
 }
 
 .book-description {
@@ -355,7 +356,8 @@ h3 {
   padding-top: 20px;
 }
 
-.buy-button {
+.buy-button-one,
+.buy-button-three {
   width: 75px;
   height: 30px;
   margin-top: 15px;
@@ -369,6 +371,38 @@ h3 {
   letter-spacing: 1px;
   border: 1px solid #0C0C0E;
   background-color: #fff;
+}
+
+.buy-button-two {
+  width: 75px;
+  height: 30px;
+  margin-top: 55px;
+  color: #0C0C0E;
+  text-align: center;
+  font-family: Inter;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1px;
+  border: 1px solid #0C0C0E;
+  background-color: #fff;
+}
+
+.own-button {
+  width: 75px;
+  height: 30px;
+  border-radius: 2px;
+  border: 1px solid #BB945F;
+  color: #BB945F;
+  text-align: center;
+  font-family: Inter;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1px;
+  margin-top: 95px;
 }
 
 .favorite-book {
