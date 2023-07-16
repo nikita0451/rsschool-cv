@@ -293,7 +293,11 @@ input[type="radio"]:checked+.fake+.radio-text {
   margin-top: 40px;
   padding-top: 15px;
   padding-left: 20px;
+  padding-bottom: 15px;
   position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
 .staff-picks {
@@ -356,27 +360,10 @@ h3 {
   padding-top: 20px;
 }
 
-.buy-button-one,
-.buy-button-three {
+.buy-button {
   width: 75px;
   height: 30px;
   margin-top: 15px;
-  color: #0C0C0E;
-  text-align: center;
-  font-family: Inter;
-  font-size: 10px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 1px;
-  border: 1px solid #0C0C0E;
-  background-color: #fff;
-}
-
-.buy-button-two {
-  width: 75px;
-  height: 30px;
-  margin-top: 55px;
   color: #0C0C0E;
   text-align: center;
   font-family: Inter;
