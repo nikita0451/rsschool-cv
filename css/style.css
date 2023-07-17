@@ -374,7 +374,7 @@ h3 {
 .buy-button {
   width: 75px;
   height: 30px;
-  margin-top: 15px;
+  margin-top: auto;
   color: #0C0C0E;
   text-align: center;
   font-family: Inter;
@@ -408,7 +408,7 @@ h3 {
   font-weight: 700;
   line-height: normal;
   letter-spacing: 1px;
-  margin-top: 95px;
+  margin-top: auto;
 }
 
 .favorite-book {
