@@ -292,7 +292,8 @@ input[type="radio"]:checked+.fake+.radio-text {
   display: flex;
   align-items: flex-start;
   flex-wrap: wrap;
-  justify-content: space-between;
+  column-gap: 260px;
+
 }
 
 .book {
