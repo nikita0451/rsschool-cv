@@ -86,8 +86,18 @@ h1 {
   gap: 30px;
 }
 
+.nav-item:hover {
+  cursor: pointer;
+  color: #BB945F;
+  transition: 0.5s;
+}
+
 .header-icon {
   margin-left: 40px;
+}
+
+.profile-icon:hover {
+  cursor: pointer;
 }
 
 .header-nav-right {
@@ -374,6 +384,14 @@ h3 {
   letter-spacing: 1px;
   border: 1px solid #0C0C0E;
   background-color: #fff;
+}
+
+.buy-button:hover {
+  cursor: pointer;
+  border-radius: 2px;
+  border: 1px solid #BB945F;
+  background: #BB945F;
+  transition: 0.5s;
 }
 
 .own-button {
